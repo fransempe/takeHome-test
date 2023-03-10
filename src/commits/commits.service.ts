@@ -5,7 +5,9 @@ import axios from 'axios'
 export class CommitsService {
 
     async getHistoryCommits (){
-        const response = await axios.get('https://api.github.com/repos/izuzak/pmrpc/commits?path=README.markdown')
+        const response = await axios.get(
+           'https://api.github.com/repos/fransempe/takeHome-test/commits'
+            )
         return response.data
     }
 }
