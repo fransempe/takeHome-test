@@ -25,6 +25,7 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Take home test is an API that provides history commits from a repo.
 
 ## Installation
 
